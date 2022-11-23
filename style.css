@@ -1,0 +1,75 @@
+* {
+  border: 0;
+  padding: 0;
+}
+img {
+  height: 96vh;
+  width: 100%;
+  position: relative;
+}
+.innerBox {
+  border-radius: 10px;
+  height: 200px;
+  width: 350px;
+  visibility: visible;
+  position: absolute;
+  left: 36%;
+  top: 150px;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.57);
+}
+.hideUnhide {
+  border-radius: 10px;
+  height: 170px;
+  width: 320px;
+  position: absolute;
+  left: 37%;
+  top: 29%;
+  background-color: lightblue;
+  /* visibility: hidden; */
+  /* i can also use visibility instade of display */
+  display: none;
+}
+.open-modal {
+  /* visibility: visible;
+   */
+  display: block;
+}
+.closeBtn {
+  color: red;
+  background-color: lightblue;
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  left: 290px;
+  font-size: 27px;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+.noOne {
+  padding-top: 20px;
+}
+.noTwo {
+  padding-top: 40px;
+  padding-left: 80px;
+}
+.btn {
+  cursor: pointer;
+  background-color: skyblue;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
+.btn:hover {
+  background-color: white;
+  color: skyblue;
+  transition: 0.5s;
+  border: 2px solid skyblue;
+}
